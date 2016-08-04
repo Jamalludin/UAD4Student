@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.jamalludin.uadapps4student">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SpalshActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Perwalian" />
+        <activity android:name=".Simeru" />
+        <activity android:name=".JadwalProgramStudi" />
+        <activity android:name=".JadwalRuang" />
+        <activity android:name=".JadwalDosen" />
+        <activity android:name=".Pengumuman" />
+        <activity android:name=".TentangAplikasi" />
+        <activity android:name=".Fakultas" />
+        <activity android:name=".ProgramStudi"></activity>
+    </application>
+
+</manifest>
